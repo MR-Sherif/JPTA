@@ -8,10 +8,9 @@ include the experimental sweeps, ablations, cached features, or datasets.
 
 ## Setup
 
-Use Python 3.10 and a CUDA-capable GPU. Install PyTorch for the CUDA version on
-your machine, then install the remaining packages from `requirements.txt`.
-The experiment environment used PyTorch 2.0.1 and torchvision 0.15.2; those
-versions are listed in the requirements file.
+Use Python 3.10 and a CUDA-capable GPU. The requirements pin PyTorch 2.0.1
+and torchvision 0.15.2, the versions specified by the experiment workspace.
+Select wheels compatible with your CUDA installation when installing them.
 
 ```bash
 python -m venv .venv
