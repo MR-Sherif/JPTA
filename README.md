@@ -120,9 +120,9 @@ The reported accuracies above come from the paper. Reproducing them numerically 
 The arXiv preprint is coming soon. Until final proceedings metadata is available, you can cite the accepted paper as:
 
 ```bibtex
-@inproceedings{khanmohammad2026jpta,
+@inproceedings{mohammad2026jpta,
   title     = {Batch-Conditioned Semantic Anchors for Robust Transductive Adaptation of Vision-Language Models},
-  author    = {Khan Mohammad, Mohammed Rahman Sherif and Behera, Ardhendu and Pradhan, Sandip and Kumar, Swagat and Ahmed, Amr},
+  author    = {Mohammad, Mohammed Rahman Sherif Khan and Behera, Ardhendu and Pradhan, Sandip and Kumar, Swagat and Ahmed, Amr},
   booktitle = {Advances in Neural Information Processing Systems},
   year      = {2026}
 }
