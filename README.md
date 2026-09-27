@@ -87,7 +87,7 @@ python scripts/run_benchmarks.py --data-root "$DATA_ROOT"
 
 In PowerShell, set `$env:DATA_ROOT` and pass `$env:DATA_ROOT` to `--data-root`.
 
-The launcher uses ViT-B/16, seed 1, `--alpha 10`, and the template bank configured in the released experiment code. It runs 1,000 tasks for each sampled batch regime, one all-classes pass, and 100 tasks for each online stream. The online batch size is 128. Results are written to `results/<dataset>/<regime>.json`, with a combined `results/summary.csv`.
+The launcher uses ViT-B/16 and seed 1. It runs 1,000 tasks for each sampled batch regime, one all-classes pass, and 100 tasks for each online stream. The online batch size is 128. Results are written to `results/<dataset>/<regime>.json`, with a combined `results/summary.csv`.
 
 For a smaller run:
 
