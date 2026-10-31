@@ -20,11 +20,11 @@ JPTA (**Joint Prior and Transport Adaptation**) adapts a frozen CLIP model to an
 
 An 82-second visual walkthrough of JPTA, from initial CLIP predictions and batch evidence to reliability-controlled semantic transport and joint refinement. Image features remain frozen throughout.
 
-https://github.com/user-attachments/assets/1a4953c1-99e1-4826-9ef9-ed482e44f82b
+https://github.com/user-attachments/assets/e095de0b-3ed5-4dea-8a4b-cb78c1b1e397
 
 *The feature-space geometry and probabilities are schematic illustrations, not experimental results.*
 
-[Video file (MP4, 6.4 MB)](assets/jpta-overview.mp4)
+[Video file (MP4, 10.3 MB)](assets/jpta-overview.mp4)
 
 ## Overview
 
