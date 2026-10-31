@@ -140,4 +140,6 @@ The arXiv preprint is coming soon. Until final proceedings metadata is available
 
 ## Acknowledgements and license
 
-The evaluation framework builds on StatA by Zanella et al. The bundled CLIP implementation comes from [OpenAI CLIP](https://github.com/openai/CLIP), with its MIT license in [clip/LICENSE](clip/LICENSE). This repository is released under the [AGPL-3.0 license](LICENSE).
+We thank the authors of [StatA (CVPR 2025)](https://github.com/MaxZanella/StatA) and [TransCLIP (NeurIPS 2024)](https://github.com/MaxZanella/transduction-for-vlms) for making their code publicly available. Their implementations were valuable resources for this research, and our evaluation framework builds on StatA.
+
+The bundled CLIP implementation comes from [OpenAI CLIP](https://github.com/openai/CLIP), with its MIT license in [clip/LICENSE](clip/LICENSE). This repository is released under the [AGPL-3.0 license](LICENSE).
