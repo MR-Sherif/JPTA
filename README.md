@@ -16,6 +16,16 @@
 
 JPTA (**Joint Prior and Transport Adaptation**) adapts a frozen CLIP model to an unlabeled test batch. It estimates which classes are present, constructs image-side class prototypes, and moves the text-side semantic references only when the batch provides reliable evidence. The method uses no labeled support examples, parameter updates, or test-time gradients.
 
+## Method video
+
+An 82-second visual walkthrough of JPTA, from initial CLIP predictions and batch evidence to reliability-controlled semantic transport and joint refinement. Image features remain frozen throughout.
+
+https://github.com/user-attachments/assets/1a4953c1-99e1-4826-9ef9-ed482e44f82b
+
+*The feature-space geometry and probabilities are schematic illustrations, not experimental results.*
+
+[Video file (MP4, 6.4 MB)](assets/jpta-overview.mp4)
+
 ## Overview
 
 ![Figure 1: JPTA under sparse and high-coverage batch regimes](assets/figure1.png)
