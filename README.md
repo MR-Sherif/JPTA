@@ -1,7 +1,7 @@
 # JPTA: Batch-Conditioned Semantic Anchors for Robust Transductive Adaptation of Vision-Language Models
 
 ![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-5B3CC4)
-![arXiv coming soon](https://img.shields.io/badge/arXiv-coming%20soon-B31B1B)
+[![arXiv:2611.06993](https://img.shields.io/badge/arXiv-2611.06993-B31B1B)](https://arxiv.org/abs/2611.06993)
 ![PyTorch](https://img.shields.io/badge/PyTorch-implementation-EE4C2C)
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-38761D)](LICENSE)
 
@@ -12,9 +12,14 @@
 
 **Institution:** Edge Hill University
 
-**Paper:** arXiv preprint coming soon.
+**Paper:** [arXiv:2611.06993](https://arxiv.org/abs/2611.06993) · Accepted at NeurIPS 2026.
 
 JPTA (**Joint Prior and Transport Adaptation**) adapts a frozen CLIP model to an unlabeled test batch. It estimates which classes are present, constructs image-side class prototypes, and moves the text-side semantic references only when the batch provides reliable evidence. The method uses no labeled support examples, parameter updates, or test-time gradients.
+
+## More Work from Our Team
+
+- **TOGA** — *Training-Only Heterogeneous Image-Patch-Text Graph Supervision for Advancing Few-Shot Learning Adapters*. Our **CVPR 2026** paper on training-only graph supervision for few-shot vision-language adaptation. [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Mohammad_Training-Only_Heterogeneous_Image-Patch-Text_Graph_Supervision_for_Advancing_Few-Shot_Learning_Adapters_CVPR_2026_paper.html) · [Code](https://github.com/MR-Sherif/TOGA)
+- **SD-LoRA** — *Training-Time Structural Distillation into LoRA for Few-Shot Vision-Language Adaptation*. Our **NeurIPS 2026** paper on training-time structural distillation for few-shot adaptation. [Paper](https://arxiv.org/abs/2611.07063) · [Code](https://github.com/MR-Sherif/SD-LoRA)
 
 ## Method video
 
@@ -127,14 +132,19 @@ The reported accuracies above come from the paper. Reproducing them numerically 
 
 ## Citation
 
-The arXiv preprint is coming soon. Until final proceedings metadata is available, you can cite the accepted paper as:
+If you use JPTA, please cite its [public arXiv preprint](https://arxiv.org/abs/2611.06993). The paper is accepted at NeurIPS 2026; proceedings metadata will be added when available.
 
 ```bibtex
-@InProceedings{Mohammad_2026_NeurIPS,
-    author    = {Mohammad, Mohammed Rahman Sherif Khan and Behera, Ardhendu and Pradhan, Sandip and Kumar, Swagat and Ahmed, Amr},
-    title     = {Batch-Conditioned Semantic Anchors for Robust Transductive Adaptation of Vision-Language Models},
-    booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-    year      = {2026}
+@misc{mohammad2026jpta,
+  title         = {Batch-Conditioned Semantic Anchors for Robust Transductive Adaptation of Vision-Language Models},
+  author        = {Mohammad, Mohammed Rahman Sherif Khan and Behera, Ardhendu and Pradhan, Sandip and Kumar, Swagat and Ahmed, Amr},
+  year          = {2026},
+  eprint        = {2611.06993},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2611.06993},
+  url           = {https://arxiv.org/abs/2611.06993},
+  note          = {Accepted at NeurIPS 2026}
 }
 ```
 

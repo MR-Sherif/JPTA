@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use JPTA in research, please cite the NeurIPS 2026 paper."
+message: "If you use JPTA in research, please cite the paper in preferred-citation."
 type: software
 title: "JPTA: Joint Prior and Transport Adaptation"
 authors:
@@ -15,7 +15,7 @@ authors:
     given-names: Amr
 url: "https://github.com/MR-Sherif/JPTA"
 preferred-citation:
-  type: conference-paper
+  type: generic
   authors:
     - family-names: Mohammad
       given-names: Mohammed Rahman Sherif Khan
@@ -28,5 +28,7 @@ preferred-citation:
     - family-names: Ahmed
       given-names: Amr
   title: "Batch-Conditioned Semantic Anchors for Robust Transductive Adaptation of Vision-Language Models"
-  collection-title: "Advances in Neural Information Processing Systems (NeurIPS)"
   year: 2026
+  doi: 10.48550/arXiv.2611.06993
+  url: https://arxiv.org/abs/2611.06993
+  notes: "Accepted at NeurIPS 2026; arXiv:2611.06993."
